@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           body{
+   margin: 0;padding: 0;
+   color: rgb(155, 91, 45);
+   background-size: cover;
+   
+   background-image: url('https://i.pinimg.com/564x/05/59/69/0559699352bf0b45e518775d50b627fa.jpg');
+   background-repeat: no-repeat;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content:right;
+    background-color: #6f4c3e; /* Coffee color */
+   
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+   margin-right: 50rem; /* Adjust logo size */
+}
+
+/* Navbar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+   margin-right: 30px;
+   padding: 10px;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #32221b;
+    border-radius: 50px; /* Darker coffee color */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        width: 100%; /* Full width links */
+        text-align: left; /* Align text to the left */
+    }
+}
+.contact-box{
+    
+    height: 500px;
+  width: 100%;
+    text-align: center;
+    display: inline-block;
+margin: 4%;
+font-size: 22px;
+    color:white;
+    border-radius: 10px;
+}
+.box1 h1{
+    margin-left: 10%;
+   padding: 20px;
+   
+}
+.box1 p{
+    margin-left: 10%;
+   
+}
+.box1 #name{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10%;
+    border: 2px solid rgb(127, 71, 31) ;
+    padding: 5px;
+    margin-bottom: 4%;
+}
+.box1 button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+   border: 2px solid white;
+   margin-left: 14%;
+   font-size: ;
+   font-weight: 600;
+    background-color:rgb(127, 71, 31); 
+    color: white;
+}
+.box1 button:hover{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+   border: 2px solid black;
+   margin-left: 14%;
+   font-weight: 600;
+    background-color:rgb(127, 71, 31); 
+    color: black;
+}
+
+
+
+    </style>
+<link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://i.pinimg.com/236x/98/cc/b0/98ccb0f5aa3f5fc6888866c986f9f23f.jpg">
+        </div>
+        <a href="index.html" class="active">Home</a>
+       
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="contact-box">
+        <div class="box1">
+ <h1>Contact Us</h1>
+ <p>Lorem ipsum dolor  adipisicing elit. natus sint fugit, <br>facere iste ratione ipsam numquam voluptatem voluptas!</p>
+ <div>
+ <input type="text" placeholder="Name" id="name">
+</div>
+ <input type="text" placeholder="Email" id="name">
+<div>
+ <input type="text" placeholder="Phone" id="name">
+ </div>
+ <button>Send Message</button>
+    </div>
+    
+    </div>
+    
+</body>
+</html>

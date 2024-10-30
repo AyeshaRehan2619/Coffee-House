@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+   body{
+   margin: 0;padding: 0;
+   color: rgb(155, 91, 45);
+   
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content:right;
+    background-color: #6f4c3e; /* Coffee color */
+   
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+   margin-right: 50rem; /* Adjust logo size */
+}
+
+/* Navbar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+   margin-right: 30px;
+   padding: 10px;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #32221b;
+    border-radius: 50px; /* Darker coffee color */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        width: 100%; /* Full width links */
+        text-align: left; /* Align text to the left */
+    }
+}
+.menu {
+    text-align: center;
+    margin-top: 2%;
+}
+.menu-box{
+    display: inline-block;
+    margin-top: 4%;
+    
+}
+.menu-box img{
+    height: 300px ;
+    width: 300px;
+    display: flex;
+}
+.menu-box button{
+    height: 40px;
+    width: 100px;
+    background-color: chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+.menu-box button:hover{
+    
+    color: black;
+    border-radius: 10px;
+    background-color: chocolate;
+    border: none;
+    height: 40px;
+    width: 100px;
+
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+  
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+   
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+    
+}
+.box4{
+    height: 400px;
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://i.pinimg.com/236x/98/cc/b0/98ccb0f5aa3f5fc6888866c986f9f23f.jpg">
+        </div>
+        <a href="index.html" class="active">Home</a>
+       
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="menu">
+        <h1>Menu</h1>
+        <hr>
+        <div class="menu-box">
+            <div class="box1">
+                <img src="https://i.pinimg.com/474x/ff/53/d8/ff53d8278cb8b6fd29d270eb2eced91f.jpg">
+                <h2>Cappicino</h2>
+                <h2>Rs.150</h2>
+                <button>Order Now</button>
+            </div>
+            <div class="box2">
+                <img src="https://i.pinimg.com/564x/b3/94/f4/b394f4f6a519f8fcb9f3be206d2c7fa7.jpg">
+                <h2>Coffee Lathe</h2>
+                <h2>Rs.180</h2>
+                <button>Order Now</button>
+                
+            </div>
+            <div class="box3">
+                <img src="https://i.pinimg.com/564x/a0/89/dd/a089dd45d1b23f03207b09b4ed8ecfee.jpg">
+                <h2>Coffee Mocha</h2>
+                <h2>Rs.140</h2>
+                <button>Order Now</button>
+            </div>
+            <div class="box4">
+                <img src="https://i.pinimg.com/564x/34/90/9a/34909a634c82d2211e20ead63e224f54.jpg">
+                <h2>Espresso</h2>
+                <h2>Rs.100</h2>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

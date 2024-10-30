@@ -1,0 +1,107 @@
+
+body{
+   margin: 0;padding: 0;
+    background-color: rgb(33, 30, 30);
+    color: white;
+    background-size: cover;
+   
+    background-image: url('https://i.pinimg.com/564x/79/f3/d4/79f3d4e522788861b185a8c2dc39f64b.jpg');
+    background-repeat: no-repeat;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content:right;
+    background-color: #6f4c3e; /* Coffee color */
+   
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+   margin-right: 50rem; /* Adjust logo size */
+}
+
+/* Navbar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+   margin-right: 30px;
+   padding: 10px;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #32221b;
+    border-radius: 50px; /* Darker coffee color */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        width: 100%; /* Full width links */
+        text-align: left; /* Align text to the left */
+    }
+}
+.main h1{
+    text-align: right;
+    margin-right: 5%;
+    font-size: 40px;
+    margin-top: 18%;
+}
+.main p{
+    text-align: right;
+    margin-right: 5%;
+    font-size: 22px;
+}
+.main button {
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #612711;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 75%;
+}
+.main2-content h1 {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 40px;
+    margin-top: 15%;
+}
+.main2-content p {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 20px;
+    
+}
+.main2-content button {
+    height: 40px;
+    width: 150px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #612711;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 75%;
+}
+
+
+
+
+
+
+
+
+
+  

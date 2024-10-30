@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+        body{
+   margin: 0;padding: 0;
+    background-color: rgb(33, 30, 30);
+    color: white;
+    background-size: cover;
+   
+    background-image: url('https://i.pinimg.com/564x/3a/be/12/3abe12e247b7bfec8b0bcc5ef8d1c79e.jpg');
+    background-repeat: no-repeat;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content:right;
+    background-color: #6f4c3e; /* Coffee color */
+   
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 50%;
+   margin-right: 50rem; /* Adjust logo size */
+}
+
+/* Navbar links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+   margin-right: 30px;
+   padding: 10px;
+    font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #32221b;
+    border-radius: 50px; /* Darker coffee color */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a {
+        width: 100%; /* Full width links */
+        text-align: left; /* Align text to the left */
+    }
+}
+.main2-content h1 {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 40px;
+    margin-top: 15%;
+}
+.main2-content p {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 20px;
+    
+}
+.main2-content button {
+    height: 40px;
+    width: 150px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #612711;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 10%;
+}
+    </style>
+</head> 
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://i.pinimg.com/236x/98/cc/b0/98ccb0f5aa3f5fc6888866c986f9f23f.jpg">
+        </div>
+        <a href="index.html" class="active">Home</a>
+       
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+  
+    <div class="main2-content">
+        
+       <h1>What makes our coffee special ? </h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eveniet, iste vero repudiandae cumque error, rem eius accusantium<br> unde at temporibus quod voluptatibus<br> officiis dolore dignissimos consectetur optio quis?<br> Inventore nam repellendus excepturi consectetur ut.</p>
+       <button class="about-btn">Learn More</button>
+        
+    </div>
+</body>
+</html>
